@@ -6,8 +6,13 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
+    // 模块解析选项
+    "moduleResolution": "node", // 指定模块解析策略
+    "baseUrl": "./", // 根路径
+    "paths": {
+      // 路径映射，与 baseUrl 关联
+      "@/*": ["src/*"]
+    },
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
