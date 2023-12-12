@@ -28,7 +28,12 @@
             <img class="mr-70 logo" src="./img/header/logo.png">
             <div id="headerNavMain" class="header-nav-main">
                 <span class="nav-list-title">首页</span>
-                <span class="nav-list-title" data="n1">许可项目</span>
+                <span className="nav-list-title" data="n1" onclick="window.location.href = '/index.html'">
+                    产品类型
+                  </span>
+                  <span className="nav-list-title" data="n2">
+                    关于我们
+                  </span>
                 <!-- <span class="nav-list-title" data="n2">展览</span>
                 <span class="nav-list-title" data="n3">教育</span>
                 <span class="nav-list-title" data="n4">探索</span>
@@ -237,7 +242,7 @@
                         <div id="bottomWp" class="bottom-wp">
                             <div class="step-wp">
                                 <span class="date">挂号</span>
-                                <span class="date-desc">患者挂号，携带身份证，医保卡</span>
+                                <span class="date-desc">患者挂号</span>
                             </div>
                             <div class="step-wp">
                                 <span class="date">报道</span>
@@ -517,6 +522,7 @@
         <div class="side-bar-top ">
             <i id="returnTop" class="icon iconfont icon-jiantoushang "></i>
         </div>
+        <div id="sideBarCloseBtn" data="show" class="side-bar-bottom">&times;</div>
     </div>
     <!-- 侧边栏结构结束 -->
 
@@ -547,7 +553,7 @@
             <span>关于我们</span>
             <span>调查问卷</span>
         </div>
-        <div class="footer-explain ">
+        <!-- <div class="footer-explain ">
             <div>
                 网站维护：故宫博物院资料信息部 联系方式：gugong@dpm.org.cn
             </div>
@@ -564,7 +570,25 @@
                 </div>
                 <img src="./img/footer/footer_show_2.png " alt=" ">
             </div>
-        </div>
+        </div> -->
+        <div className="footer-explain">
+            <div>
+              网站维护：海南森宇泰科技信息部 联系方式：www.sunyotas.com
+            </div>
+            <div className="filing-container">
+              <img className="mr_10" src="https://img.dpm.org.cn/Public/static/ico.png" alt="" />
+              京公网安备 11010102004165号 京ICP备05067311号-1
+            </div>
+            <!-- <div className="footer-btn">浏览建议</div>
+            <div className="outside-container">
+              <div className="hand-container">
+                <img src="./img/footer/footer_ico_hand.png" alt="" />
+                <img className="hand-slider" src="./img/footer/footer_hand.png" alt="" />
+                <img className="masker" src="./img/footer/footer_masker.jpg" alt="" />
+              </div>
+              <img src="./img/footer/footer_show_2.png" alt="" />
+            </div> -->
+          </div>
     </div>
 
     <!-- 页脚结构结束 -->

@@ -1,18 +1,21 @@
 export const Header = () => {
-  
   return (
     <div className="header-container">
       <div className="flex-x-cener">
         <img className="mr-70 logo" src="./img/header/logo.png" alt="Logo" />
         <div id="headerNavMain" className="header-nav-main">
-          <span className="nav-list-title">首页</span>
+          <span
+            className="nav-list-title"
+            onClick={() => {
+              window.location.href = "/home.html";
+            }}
+          >
+            首页
+          </span>
           <span className="nav-list-title" data="n1">
-            许可项目
+            产品类型
           </span>
           <span className="nav-list-title" data="n2">
-            经营范围
-          </span>
-          <span className="nav-list-title" data="n3">
             关于我们
           </span>
         </div>
@@ -38,14 +41,6 @@ export const Header = () => {
               <i id="iconMenuBtn" className="icon iconfont icon-menu1"></i>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div id="navigatorMasker" className="navigator-masker-container">
-        <div className="nav-list-masker-container n1">
-          <span>技术进出口</span>
-          <span>货物进出口</span>
-          <span>进出口代理</span>
         </div>
       </div>
     </div>

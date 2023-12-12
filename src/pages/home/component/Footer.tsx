@@ -20,7 +20,7 @@ export const Footer=()=>{
         <img className="mr_10" src="https://img.dpm.org.cn/Public/static/ico.png" alt="" />
         京公网安备 11010102004165号 京ICP备05067311号-1
       </div>
-      <div className="footer-btn">浏览建议</div>
+      {/* <div className="footer-btn">浏览建议</div>
       <div className="outside-container">
         <div className="hand-container">
           <img src="./img/footer/footer_ico_hand.png" alt="" />
@@ -28,7 +28,7 @@ export const Footer=()=>{
           <img className="masker" src="./img/footer/footer_masker.jpg" alt="" />
         </div>
         <img src="./img/footer/footer_show_2.png" alt="" />
-      </div>
+      </div> */}
     </div>
   </div>
   )

@@ -1,24 +1,23 @@
-import "../../../css/banner.less";
 import { Carousel } from "antd";
 const contentStyle: React.CSSProperties = {
-  color: "#fff",
   textAlign: "center",
-  background: "#364d79",
+  // background: "#364d79",
+  color:"blue",
   overflow: "hidden",
-  paddingTop: "9%",
+  paddingTop: "700px",
   paddingBottom: "9%",
   position: "relative",
+  backgroundImage: `url(../../../../../../public/img/banner/banner_bg_1.jpg)`,
 };
 export const Banner = () => {
   return (
     <div className="banner-container">
       <div id="imgContainer" className="img-container">
         <div style={contentStyle}>
-          <h1>公司简介</h1>
+          {/* <h1>公司简介</h1>
           <h3>
-            信息技术有限公司是面向医疗、金融、通讯、交通行业提供专业自助综合解决方案并集研发生产销售于一体的高新技术企业，拥有五金精密制造及硬件、软件、系统集成分体全产业链，其中研发人员占比
-            75%。其团队曾获得硬件、新型外观相关专利过千件，其中发明专利几百件，软件著作权近千项，助力ODM、OEM代工获关联专利近千项，是国内仅有拥有自助制造链（钣金精密制造链、组装研发链）的少数全产业家自助生产商之一。
-          </h3>
+            信息技术有限公司是面向医疗、金融、通讯、交通行业提供专业自助综合解决方案并集研发生产销售于一体的高新技术企业，拥有五金精密制造及硬件、软件、系统集成分体全产业链.
+          </h3> */}
         </div>
       </div>
     </div>

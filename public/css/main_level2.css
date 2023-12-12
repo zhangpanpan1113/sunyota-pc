@@ -8,7 +8,7 @@
     margin-right: 30px;
     background-size: cover;
     width: calc(25% - 15px);
-    min-width: 270px;
+    min-width: 660px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,8 +59,8 @@
 }
 
 .button-item {
-    width: 140px;
-    height: 40px;
+    width: 500px;
+    height: 330px;
     text-align: center;
     font-size: 16px;
     line-height: 40px;
